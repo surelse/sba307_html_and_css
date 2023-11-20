@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up / Register</title>
+    <link rel="stylesheet" href="../styles/website.css"/>
+  </head>
+  <body>
+    <form
+      action="#"
+      style="border: 1px solid black; background-color:paleturquoise; width: 250px; padding: 20px;"
+    >
+      <h1>Register</h1>
+      <label>
+        Parent First Name
+        <input type="email" required placeholder="Enter Your First Name"/>
+      </label>
+      <br />
+      <br />
+      <label>
+        Parent Last Name
+        <input type="text" required placeholder="Enter Your Last Name" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Student First Name
+        <input type="email" required placeholder="Enter Your First Name" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Student Last Name
+        <input type="text" required placeholder="Enter Your Last Name" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Email
+        <input type="email" required placeholder="Enter Your Email" />
+      </label>
+      <br />
+      <br />
+      <label for="city">City: </label>
+    <select name="city" id="city">
+        <option>Select a city</option>
+        <option value="wexford">Wexford</option>
+        <option value="cranberry">Cranberry</option>
+        <option value="Gibsonai">Gibsonia</option>
+    </select><br><br>
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" id="female" />
+        <label for="female">Female</label>
+
+        <input type="radio" id="male" />
+        <label for="male">Male</label>
+      </fieldset>
+      <br />
+      <br />
+      <label>
+        Date of Birth
+        <input type="date" />
+      </label>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Course</legend>
+        <label for="subject1">Conceptual Math</label>
+        <input type="checkbox" id="subject1" />
+        <br />
+        <label for="subject2">Vedic Math</label>
+        <input type="checkbox" id="subject2" />
+        <br />
+        <label for="subject3">Abacus</label>
+        <input type="checkbox" id="subject3" />
+      </fieldset>
+      <br>
+      <input type="submit" value="Register"  />
+    </form>
+  </body>
+</html>
